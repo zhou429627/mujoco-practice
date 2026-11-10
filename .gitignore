@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+outputs/
+wandb/
+*.gif
+.DS_Store

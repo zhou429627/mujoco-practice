@@ -1,0 +1,7 @@
+# 注意：torch 必须从 cu128 索引安装（Blackwell 显卡），不要用 pip install torch
+# pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 \
+#   --index-url https://download.pytorch.org/whl/cu128
+stable-baselines3[extra]==2.9.0
+gymnasium[mujoco]
+imageio[ffmpeg]
+numpy
